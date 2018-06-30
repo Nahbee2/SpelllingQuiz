@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="28dp"
+        tools:context=".QuizActivity">
+
+        <TextView
+            android:id="@+id/PlayerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/PlayerName"
+            android:fontFamily="cursive"
+            android:background="#f8bbd0"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/No1"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"
+            android:paddingTop="10dp"
+            android:text="@string/Question1"
+
+            android:textColor="@android:color/black" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bc477b"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_BU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/BU" />
+
+            <RadioButton
+                android:id="@+id/radio_MB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/MB" />
+
+            <RadioButton
+                android:id="@+id/radio_BO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/BO" />
+
+            <RadioButton
+                android:id="@+id/radio_OB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/OB" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/No2"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"
+            android:paddingTop="10dp"
+            android:text="@string/Question2"
+            android:textColor="@android:color/black" />
+
+
+        <CheckBox
+            android:id="@+id/checkbox_Excede"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f8bbd0"
+            android:text="@string/Excede" />
+
+        <CheckBox
+            android:id="@+id/checkbox_Interceed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f8bbd0"
+            android:text="@string/Interceed" />
+
+        <CheckBox
+            android:id="@+id/checkbox_Proceed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f8bbd0"
+            android:text="@string/Proceed" />
+
+        <CheckBox
+            android:id="@+id/checkbox_Suceed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f8bbd0"
+            android:text="@string/Suceed" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/No3"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"
+            android:paddingTop="10dp"
+            android:text="@string/Question3"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:background="#bc477b"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_Chiled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Chiled" />
+
+            <RadioButton
+                android:id="@+id/radio_Chileed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Chileed" />
+
+            <RadioButton
+                android:id="@+id/radio_Chillad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Chillad" />
+
+            <RadioButton
+                android:id="@+id/radio_Chilled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Chilled" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/No4"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"
+            android:paddingTop="10dp"
+            android:text="@string/Question4"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/Question4_answer"
+            android:layout_width="match_parent"
+            android:background="#f8bbd0"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/No5"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"
+            android:paddingTop="10dp"
+            android:text="@string/Question5"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bc477b"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_Purfeme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Purfeme" />
+
+            <RadioButton
+                android:id="@+id/radio_Perrfume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Perrfume" />
+
+            <RadioButton
+                android:id="@+id/radio_Purfume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Purfume" />
+
+            <RadioButton
+                android:id="@+id/radio_Perfume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Perfume" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/No6"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"
+            android:paddingTop="10dp"
+            android:text="@string/Question6"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f8bbd0"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_Hare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Hare" />
+
+            <RadioButton
+                android:id="@+id/radio_Heir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Hear" />
+
+            <RadioButton
+                android:id="@+id/radio_Here"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Heir" />
+
+            <RadioButton
+                android:id="@+id/radio_Hear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Here" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/No7"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"
+            android:paddingTop="10dp"
+            android:text="@string/Question7"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/Qtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bc477b"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_Naturely"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Naturely" />
+
+            <RadioButton
+                android:id="@+id/radio_Naturally"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Naturally" />
+
+            <RadioButton
+                android:id="@+id/radio_Ntaurally"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Ntaurally" />
+
+            <RadioButton
+                android:id="@+id/radio_Naturelly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Naturelly" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/No8"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"
+            android:paddingTop="10dp"
+            android:text="@string/Question8"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f8bbd0"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_Perpleching"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Perpleching" />
+
+            <RadioButton
+                android:id="@+id/radio_Purplexing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Purplexing" />
+
+            <RadioButton
+                android:id="@+id/radio_Perplexing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Perplexing" />
+
+            <RadioButton
+                android:id="@+id/radio_Purplexxing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Purplexxing" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/No9"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"
+            android:paddingTop="10dp"
+            android:text="@string/Question9"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bc477b"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_Pohnograph"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pohnograph" />
+
+            <RadioButton
+                android:id="@+id/radio_Phonograph"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Phonograph" />
+
+            <RadioButton
+                android:id="@+id/radio_Phonogrpah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Phonogrpah" />
+
+            <RadioButton
+                android:id="@+id/radio_Phongraph"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Phongraph" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/No10"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"
+            android:paddingTop="10dp"
+            android:text="@string/Question10"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f8bbd0"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_Flaggallete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Flaggallete" />
+
+            <RadioButton
+                android:id="@+id/radio_Flagellate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Flagellate" />
+
+            <RadioButton
+                android:id="@+id/radio_Flagallete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Flagallete" />
+
+            <RadioButton
+                android:id="@+id/radio_Flagelate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Flagelate" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:onClick="Grade_Quiz"
+            android:text="@string/Grade" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:onClick="Try_again"
+            android:text="@string/TryAgain" />
+
+    </LinearLayout>
+
+
+</ScrollView>

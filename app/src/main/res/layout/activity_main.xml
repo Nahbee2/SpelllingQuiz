@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:padding="28dp"
+    android:background="#f8bbd0"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R u a gud Spellar?"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/Enter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Player Name"
+        android:inputType="textCapWords"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:onClick="Start_Quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="28dp"
+        android:layout_gravity="center"
+        android:text="Start Quiz"/>
+
+</LinearLayout>
